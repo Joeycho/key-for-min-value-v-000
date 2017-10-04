@@ -21,7 +21,8 @@ def key_for_min_value(name_hash)
 
   if temp == 1000
     nil
+  else
+      temp
   end
-  temp
 
 end
