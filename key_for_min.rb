@@ -12,11 +12,11 @@ def key_for_min_value(name_hash)
       temp = value
     end
   end
-binding.pry
+#binding.pry
   name_hash.collect do |key, value|
     if value = temp
       key
     end
   end
-
+binding.pry
 end
