@@ -15,7 +15,10 @@ def key_for_min_value(name_hash)
 #binding.pry
   name_hash.collect do |key, value|
     if value == temp
-      key
+      temp = key
     end
   end
+
+  temp
+  
 end
